@@ -42,7 +42,7 @@ def verify_image(url1):
             end_index = file.name.rfind('$')
             if start_index != -1 and end_index != -1:
               name = file.name[start_index + 1:end_index]
-              return {"username": name}
+            return {"username": name}
             break
 
     if flag == False:
