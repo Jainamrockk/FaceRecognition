@@ -1,5 +1,5 @@
 Pyrebase4==4.7.1
-requests==2.22.1
+requests==2.22.0
 opencv-python==4.8.1.78
 uvicorn==0.23.2
 urllib3==1.25.11
