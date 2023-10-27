@@ -1,0 +1,22 @@
+{
+    "info": {
+        "name": "FastAPI API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "read_root",
+            "request": {
+                "url": "http://localhost:8000/",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "verify_image",
+            "request": {
+                "url": "http://localhost:8000/verify/",
+                "method": "GET"
+            }
+        }
+    ]
+}

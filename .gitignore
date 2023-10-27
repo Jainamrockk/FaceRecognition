@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+# Ignore Python virtual environment
+venv/
+# Ignore the lib directory
+Lib/
+
