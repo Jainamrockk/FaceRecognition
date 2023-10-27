@@ -1,3 +1,4 @@
+pip==23.3.1
 Pyrebase4==4.7.1
 requests==2.23.0
 opencv-python==4.8.1.78
