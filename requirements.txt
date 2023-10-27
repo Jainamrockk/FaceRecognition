@@ -5,3 +5,4 @@ uvicorn
 urllib3
 deepface
 fastapi
+gunicorn
