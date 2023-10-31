@@ -35,7 +35,7 @@ def verify_image(url1):
         url = storage.child(f"{file.name}").get_url(None)
         # print(url)
         with requests.get(url) as response:
-          result = DeepFace.verify(f"{url1}",url, model_name="Facenet", distance_metric='cosine',detector_backend = "retinaface")
+          result = DeepFace.verify(f"{url1}",url, model_name="Facenet", distance_metric='cosine')
           if result['verified']:
             flag = True
             start_index = file.name.rfind('/')
